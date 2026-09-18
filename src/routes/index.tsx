@@ -17,7 +17,7 @@ import caetanoThumb from "@/assets/caetano-thumbnail.jpg.asset.json";
 import aripThumb from "@/assets/arip-thumbnail.png.asset.json";
 import futascoresThumb from "@/assets/futascores.png.asset.json";
 import fitscheduleThumb from "@/assets/fitschedule-thumbnail.jpg.asset.json";
-import randyProfile from "@/assets/randy-profile.jpg.asset.json";
+import randyProfile from "@/assets/randy-profile.jpg";
 import whatsappQr from "@/assets/whatsapp-qr-code.jpeg.asset.json";
 import ccnaBadge from "@/assets/ccna-badge.jpg.asset.json";
 import slaBadge from "@/assets/sla-badge.jpg.asset.json";
@@ -522,7 +522,7 @@ function ProfileCard() {
       <div className="flex items-center gap-4">
         <div className="relative h-20 w-20 overflow-hidden rounded-full border-2 border-primary/30">
           <img
-            src={randyProfile.url}
+            src={randyProfile}
             alt="Randy"
             className="h-full w-full object-cover"
           />
