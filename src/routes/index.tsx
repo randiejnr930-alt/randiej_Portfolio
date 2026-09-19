@@ -5,23 +5,23 @@ import { useServerFn } from "@tanstack/react-start";
 import { bumpPortfolioView, getPortfolioViews } from "@/lib/views.functions";
 
 
-import africaNoCodeThumb from "@/assets/africa-no-code-thumbnail.jpg.asset.json";
-import dipyThumb from "@/assets/dipy-thumbnail.jpg.asset.json";
-import tidydenThumb from "@/assets/tidyden-thumbnail.jpg.asset.json";
-import lovemeThumb from "@/assets/loveme-thumbnail.png.asset.json";
-import cashwiseThumb from "@/assets/cashwise-thumbnail.jpg.asset.json";
-import spectrumThumb from "@/assets/spectrum-thumbnail.jpg.asset.json";
-import mathsSafariThumb from "@/assets/maths-safari-thumbnail.png.asset.json";
-import smartHairPlannerThumb from "@/assets/smart-hair-planner-thumbnail.jpg.asset.json";
-import caetanoThumb from "@/assets/caetano-thumbnail.jpg.asset.json";
-import aripThumb from "@/assets/arip-thumbnail.png.asset.json";
-import futascoresThumb from "@/assets/futascores.png.asset.json";
-import fitscheduleThumb from "@/assets/fitschedule-thumbnail.jpg.asset.json";
+import africaNoCodeThumb from "@/assets/africa-no-code-thumbnail.jpg";
+import dipyThumb from "@/assets/dipy-thumbnail.jpg";
+import tidydenThumb from "@/assets/tidyden-thumbnail.jpg";
+import lovemeThumb from "@/assets/loveme-thumbnail.png";
+import cashwiseThumb from "@/assets/cashwise-thumbnail.jpg";
+import spectrumThumb from "@/assets/spectrum-thumbnail.jpg";
+import mathsSafariThumb from "@/assets/maths-safari-thumbnail.png";
+import smartHairPlannerThumb from "@/assets/smart-hair-planner-thumbnail.jpg";
+import caetanoThumb from "@/assets/caetano-thumbnail.jpg";
+import aripThumb from "@/assets/arip-thumbnail.png";
+import futascoresThumb from "@/assets/futascores.png";
+import fitscheduleThumb from "@/assets/fitschedule-thumbnail.jpg";
 import randyProfile from "@/assets/randy-profile.jpg";
-import whatsappQr from "@/assets/whatsapp-qr-code.jpeg.asset.json";
-import ccnaBadge from "@/assets/ccna-badge.jpg.asset.json";
-import slaBadge from "@/assets/sla-badge.jpg.asset.json";
-import orbitDevelopers from "@/assets/orbit-developers.jpeg.asset.json";
+import whatsappQr from "@/assets/whatsapp-qr-code.jpeg";
+import ccnaBadge from "@/assets/ccna-badge.jpg";
+import slaBadge from "@/assets/sla-badge.jpg";
+import orbitDevelopers from "@/assets/orbit-developers.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -97,7 +97,7 @@ const PROJECTS: Project[] = [
     desc: "Digital innovation platform helping startups, SMEs and enterprises build and launch products faster with no-code. Covers SaaS development, workflow automation and API integrations.",
     languages: ["Bubble.io", "JavaScript", "HTML", "CSS", "REST APIs"],
     live: "https://africano-coders.bubbleapps.io/version-test",
-    image: africaNoCodeThumb.url,
+    image: africaNoCodeThumb,
   },
   {
     n: "02",
@@ -106,7 +106,7 @@ const PROJECTS: Project[] = [
     desc: "Israel's largest platform connecting content creators with businesses and individuals. It centralizes creator discovery, inquiries, contracts, payments and negotiations into one transparent workflow so both sides can hire and deliver without scattered tools.",
     languages: ["Bubble.io", "JavaScript", "Stripe API", "HTML/CSS"],
     live: "https://dipy.io/",
-    image: dipyThumb.url,
+    image: dipyThumb,
   },
   {
     n: "03",
@@ -115,7 +115,7 @@ const PROJECTS: Project[] = [
     desc: "Service marketplace that lets customers quickly find and book trusted professional cleaning services with automated notifications and scheduling.",
     languages: ["Bubble.io", "JavaScript", "Twilio API"],
     live: "https://au.tidyden.com/",
-    image: tidydenThumb.url,
+    image: tidydenThumb,
   },
   {
     n: "04",
@@ -124,7 +124,7 @@ const PROJECTS: Project[] = [
     desc: "Global dating platform (live on Google Play) connecting people across countries with swipe matching, real time messaging, voice/video calls and premium subscriptions.",
     languages: ["Bubble.io", "Java", "Kotlin", "Android Studio", "RevenueCat", "AdMob"],
     live: "https://play.google.com/store/apps/details?id=com.loveme.intldating&pcampaignid=web_share",
-    image: lovemeThumb.url,
+    image: lovemeThumb,
   },
   {
     n: "05",
@@ -133,7 +133,7 @@ const PROJECTS: Project[] = [
     desc: "Personal finance and business management app to track expenses, budgets, invoices and financial performance, monetized with AdMob and Meta Audience Network.",
     languages: ["Bubble.io", "Java", "Android Studio", "JavaScript"],
     live: "https://play.google.com/store/apps/details?id=com.dimakukhta.diploma",
-    image: cashwiseThumb.url,
+    image: cashwiseThumb,
   },
   {
     n: "06",
@@ -142,7 +142,7 @@ const PROJECTS: Project[] = [
     desc: "Enterprise workplace wellbeing platform with wellness programs, mental health support, appointment scheduling and health analytics dashboards.",
     languages: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS", "Blade"],
     live: "https://www.spectrum.life",
-    image: spectrumThumb.url,
+    image: spectrumThumb,
   },
   {
     n: "07",
@@ -151,7 +151,7 @@ const PROJECTS: Project[] = [
     desc: "Educational mobile app that makes mathematics fun and engaging for children through interactive gamified lessons and progress tracking.",
     languages: ["Bubble.io", "Java", "Android Studio"],
     live: "https://play.google.com/store/apps/details?id=org.dynamicladiesdfw.kidsgame",
-    image: mathsSafariThumb.url,
+    image: mathsSafariThumb,
   },
   {
     n: "08",
@@ -160,7 +160,7 @@ const PROJECTS: Project[] = [
     desc: "Football prediction platform delivering match analysis, statistics, premium memberships and performance analytics.",
     languages: ["Bubble.io", "JavaScript", "REST APIs"],
     live: "https://futascores.live/",
-    image: futascoresThumb.url,
+    image: futascoresThumb,
   },
   {
     n: "09",
@@ -168,7 +168,7 @@ const PROJECTS: Project[] = [
     role: "Product Designer & Developer",
     desc: "Fitness planning app that helps users organize workouts, track goals and stay accountable with reminders and progress reports.",
     languages: ["Bubble.io", "JavaScript"],
-    image: fitscheduleThumb.url,
+    image: fitscheduleThumb,
   },
   {
     n: "10",
@@ -177,7 +177,7 @@ const PROJECTS: Project[] = [
     desc: "Salon and customer management platform that streamlines appointment booking, customer profiles and haircare planning.",
     languages: ["Bubble.io", "JavaScript"],
     live: "https://healthy-hair-by-debs.bubbleapps.io/version-test",
-    image: smartHairPlannerThumb.url,
+    image: smartHairPlannerThumb,
   },
   {
     n: "11",
@@ -186,7 +186,7 @@ const PROJECTS: Project[] = [
     desc: "Your directors are personally liable. Is your compliance ready to be tested? ARIP is Australia's only fully automated WHS compliance platform covering all 10 jurisdictions. From incident logging to regulator notification, every deadline tracked, every alert automated, every director protected. This is the largest Australian project web app and mobile application I am currently working on and shall be launched soon.",
     languages: ["Bubble.io", "JavaScript", "HTML/CSS", "Workflow Automation"],
     live: "https://arip-website-frontend.vercel.app/#top",
-    image: aripThumb.url,
+    image: aripThumb,
   },
   {
     n: "12",
@@ -195,7 +195,7 @@ const PROJECTS: Project[] = [
     desc: "Responsive digital showcase for children's playground equipment promoting safe, educational and engaging play.",
     languages: ["Bubble.io", "JavaScript", "HTML/CSS"],
     live: "https://gucaetanoe-kiddy-randy.bubbleapps.io/version-test",
-    image: caetanoThumb.url,
+    image: caetanoThumb,
   },
 ];
 
@@ -597,7 +597,7 @@ function OrbitDevelopers() {
         <div className="mt-8 flex flex-col items-center gap-6 sm:mt-6 sm:flex-row sm:items-start">
           <div className="w-28 shrink-0 overflow-hidden rounded-2xl border border-border bg-background sm:w-32 md:w-40">
             <img
-              src={orbitDevelopers.url}
+              src={orbitDevelopers}
               alt="The Orbit Developers logo, Ideas, Code, Impact"
               className="aspect-square h-full w-full object-contain"
               loading="lazy"
@@ -812,26 +812,26 @@ function Skills() {
   );
 }
 
-import figmaLogo from "@/assets/figma_logo.png.asset.json";
-import miroLogo from "@/assets/miro_logo.png.asset.json";
-import clickupLogo from "@/assets/clickup.jpg.asset.json";
-import twilioLogo from "@/assets/Twilio-Logo.wine.png.asset.json";
-import airdevLogo from "@/assets/images.png.asset.json";
-import timeDoctorLogo from "@/assets/time-doctor.png.asset.json";
-import canvaLogo from "@/assets/canva-logo.png.asset.json";
-import androidStudioLogo from "@/assets/android-studio-logo.jpg.asset.json";
+import figmaLogo from "@/assets/figma_logo.png";
+import miroLogo from "@/assets/miro_logo.png";
+import clickupLogo from "@/assets/clickup.jpg";
+import twilioLogo from "@/assets/Twilio-Logo.wine.png";
+import airdevLogo from "@/assets/images.png";
+import timeDoctorLogo from "@/assets/time-doctor.png";
+import canvaLogo from "@/assets/canva-logo.png";
+import androidStudioLogo from "@/assets/android-studio-logo.jpg";
 
 const TOOLS: { name: string; desc: string; icon: string }[] = [
-  { name: "Figma", desc: "UI/UX design, prototypes and design systems.", icon: figmaLogo.url },
-  { name: "Miro", desc: "Whiteboarding, user flows and workshop collaboration.", icon: miroLogo.url },
+  { name: "Figma", desc: "UI/UX design, prototypes and design systems.", icon: figmaLogo },
+  { name: "Miro", desc: "Whiteboarding, user flows and workshop collaboration.", icon: miroLogo },
   { name: "Notion", desc: "Project docs, wikis and product knowledge base.", icon: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" },
-  { name: "ClickUp", desc: "Task management, sprints and delivery tracking.", icon: clickupLogo.url },
+  { name: "ClickUp", desc: "Task management, sprints and delivery tracking.", icon: clickupLogo },
   { name: "Monday.com", desc: "Work management and team collaboration boards.", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Monday_logo.svg" },
-  { name: "Twilio", desc: "SMS, voice and messaging API integrations.", icon: twilioLogo.url },
-  { name: "Airdev", desc: "Bubble.io Canvas framework for rapid SaaS builds.", icon: airdevLogo.url },
-  { name: "Time Doctor", desc: "Time tracking and productivity reporting for client work.", icon: timeDoctorLogo.url },
-  { name: "Canva", desc: "Quick graphics, social assets and pitch decks.", icon: canvaLogo.url },
-  { name: "Android Studio", desc: "Native Android development, Kotlin builds and mobile app wrapping.", icon: androidStudioLogo.url },
+  { name: "Twilio", desc: "SMS, voice and messaging API integrations.", icon: twilioLogo },
+  { name: "Airdev", desc: "Bubble.io Canvas framework for rapid SaaS builds.", icon: airdevLogo },
+  { name: "Time Doctor", desc: "Time tracking and productivity reporting for client work.", icon: timeDoctorLogo },
+  { name: "Canva", desc: "Quick graphics, social assets and pitch decks.", icon: canvaLogo },
+  { name: "Android Studio", desc: "Native Android development, Kotlin builds and mobile app wrapping.", icon: androidStudioLogo },
 ];
 
 function Tools() {
@@ -893,8 +893,8 @@ const CERTIFICATIONS: { title: string; items: string[] }[] = [
 ];
 
 const FEATURED_BADGES: { name: string; org: string; image: string }[] = [
-  { name: "CCNA", org: "Cisco", image: ccnaBadge.url },
-  { name: "Software Developer Associate", org: "SLA", image: slaBadge.url },
+  { name: "CCNA", org: "Cisco", image: ccnaBadge },
+  { name: "Software Developer Associate", org: "SLA", image: slaBadge },
 ];
 
 function Certifications() {
@@ -978,7 +978,7 @@ function Contact() {
             Message me
           </a>
           <a
-            href={whatsappQr.url}
+            href={whatsappQr}
             target="_blank"
             rel="noreferrer"
             aria-label="Scan QR code to message me on WhatsApp"
